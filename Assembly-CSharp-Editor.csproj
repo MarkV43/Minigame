@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{36B5C80F-C1C6-E954-C066-F06F5CB4BF5A}</ProjectGuid>
+    <ProjectGuid>{11F79587-DB10-A8E5-706B-97BA98E1A1F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -163,10 +163,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Aluno/Documents/MinigamePlatformPuzzleV0.0.1/Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="SourceUnityLib">
- <HintPath>C:/Users/Aluno/Documents/MinigamePlatformPuzzleV0.0.1/Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Aluno/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -192,7 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{9F4954A9-A18D-2C64-22C7-2B7C67FB0E8D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{1EE9E83C-A045-E1FE-74E5-021BD852819B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

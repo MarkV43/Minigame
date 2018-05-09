@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9F4954A9-A18D-2C64-22C7-2B7C67FB0E8D}</ProjectGuid>
+    <ProjectGuid>{1EE9E83C-A045-E1FE-74E5-021BD852819B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -228,10 +228,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Aluno/Documents/MinigamePlatformPuzzleV0.0.1/Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="SourceUnityLib">
- <HintPath>C:/Users/Aluno/Documents/MinigamePlatformPuzzleV0.0.1/Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Aluno/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
