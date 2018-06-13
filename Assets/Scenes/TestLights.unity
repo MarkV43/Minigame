@@ -118,6 +118,18 @@ GameObject:
   m_PrefabParentObject: {fileID: 1824340380413090, guid: 0e74cf81e6fd82546b4797f71ceffb81,
     type: 2}
   m_PrefabInternal: {fileID: 288426830}
+--- !u!114 &76891736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76891735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461f62a7e39e10c418a76180d82a4904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holding: {fileID: 0}
 --- !u!4 &76891739 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4549428611729446, guid: 0e74cf81e6fd82546b4797f71ceffb81,
@@ -427,6 +439,10 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: -6.97
       objectReference: {fileID: 0}
+    - target: {fileID: 1824340380413090, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 2}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 136606663363984694, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 2}
@@ -470,85 +486,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 4565495623634754, guid: 27203614ae038604ea81fddf417db76c, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 4565495623634754, guid: 27203614ae038604ea81fddf417db76c, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 4565495623634754, guid: 27203614ae038604ea81fddf417db76c, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 54368965262951264, guid: 27203614ae038604ea81fddf417db76c,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.y
-      value: -0.499
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.z
-      value: -1.322
-      objectReference: {fileID: 0}
     - target: {fileID: 1062323965195962, guid: 27203614ae038604ea81fddf417db76c, type: 2}
       propertyPath: m_Name
       value: Crate (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 54368965262951264, guid: 27203614ae038604ea81fddf417db76c,
-        type: 2}
-      propertyPath: m_Mass
-      value: 0.2
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 27203614ae038604ea81fddf417db76c, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &354147408
@@ -590,7 +532,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.58823526, g: 0.42769358, b: 0.082179934, a: 1}
-  m_Intensity: 0.52
+  m_Intensity: 2.23
   m_Range: 0.93
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -739,7 +681,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.58823526, g: 0.42769358, b: 0.082179934, a: 1}
-  m_Intensity: 0.52
+  m_Intensity: 2.23
   m_Range: 0.93
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -948,9 +890,69 @@ Prefab:
       propertyPath: m_Name
       value: Lamp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 108667702180669232, guid: d633ded7bfa253142b4659d20e17807c,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294965247
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d633ded7bfa253142b4659d20e17807c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &962044463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 962044464}
+  - component: {fileID: 962044465}
+  - component: {fileID: 962044466}
+  m_Layer: 9
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962044464
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962044463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 76891739}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &962044465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962044463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2664261, y: 0.25821066, z: 0.32249722}
+  m_Center: {x: 0, y: 0.39, z: 0.57}
+--- !u!114 &962044466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962044463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ab2d1fa5d62ec6468a603c607117d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliding: {fileID: 0}
+  tagFilter: Crate
 --- !u!1001 &1294364285
 Prefab:
   m_ObjectHideFlags: 0

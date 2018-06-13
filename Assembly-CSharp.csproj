@@ -108,8 +108,10 @@
      <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Util.cs" />
      <Compile Include="Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
      <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
+     <Compile Include="Assets\Scripts\CrateCollider.cs" />
      <Compile Include="Assets\Scripts\LightFlickerer.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\PlayerInventory.cs" />
      <Compile Include="Assets\Scripts\Variator.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
