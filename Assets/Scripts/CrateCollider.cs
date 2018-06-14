@@ -6,11 +6,11 @@ public class CrateCollider : MonoBehaviour {
     //[HideInInspector]
     public GameObject colliding = null;
 
-    public string tagFilter = "Crate";
+    public List<string> tagFilter = new List<string>();
 
     void OnTriggerEnter(Collider c) {
         print(c.tag);
-        if(c.tag == tagFilter) {
+        if(Contains(tagFilter, c.tag)) {
             colliding = c.gameObject;
         }
     }
@@ -21,4 +21,12 @@ public class CrateCollider : MonoBehaviour {
         }
     }
 	
+    bool Contains(List<string> l, string s) {
+        foreach (string str in l) {
+            if (str == s) {
+                return true;
+            }
+        }
+        return false;
+    } 
 }
