@@ -109,7 +109,7 @@
      <Compile Include="Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
      <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
      <Compile Include="Assets\Scripts\CrateCollider.cs" />
-     <Compile Include="Assets\Scripts\Elevador.cs" />
+     <Compile Include="Assets\Scripts\ElevatorCollider.cs" />
      <Compile Include="Assets\Scripts\LightFlickerer.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerInventory.cs" />
@@ -232,10 +232,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Aluno/Downloads/eduardo_veras/Minigame/Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="SourceUnityLib">
- <HintPath>C:/Users/Aluno/Downloads/eduardo_veras/Minigame/Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Aluno/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
