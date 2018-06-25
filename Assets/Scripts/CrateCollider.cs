@@ -8,6 +8,11 @@ public class CrateCollider : MonoBehaviour {
 
     public List<string> tagFilter = new List<string>();
 
+    // This class's responsible for detecting a collision
+    // and storing the colliding object, as long as it's
+    // tag belongs to a list
+
+    // When object enters, store it
     void OnTriggerEnter(Collider c) {
         print(c.tag);
         if(Contains(tagFilter, c.tag)) {
@@ -15,12 +20,14 @@ public class CrateCollider : MonoBehaviour {
         }
     }
 
+    // When object exits, store null
     void OnTriggerExit(Collider c) {
         if(colliding == c.gameObject) {
             colliding = null;
         }
     }
-	
+
+    // Check if object has the tag
     bool Contains(List<string> l, string s) {
         foreach (string str in l) {
             if (str == s) {

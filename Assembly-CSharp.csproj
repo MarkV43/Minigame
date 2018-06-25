@@ -110,6 +110,7 @@
      <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
      <Compile Include="Assets\Scripts\CrateCollider.cs" />
      <Compile Include="Assets\Scripts\ElevatorCollider.cs" />
+     <Compile Include="Assets\Scripts\LightDetector.cs" />
      <Compile Include="Assets\Scripts\LightFlickerer.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerInventory.cs" />
