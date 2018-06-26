@@ -109,7 +109,14 @@
      <Compile Include="Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
      <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
      <Compile Include="Assets\Scripts\CrateCollider.cs" />
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Scripts\ElevatorCollider.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\LightDetector.cs" />
+>>>>>>> 888e8fcbb7dd032f37d3db71ae3a534639809b3e
      <Compile Include="Assets\Scripts\LightFlickerer.cs" />
+     <Compile Include="Assets\Scripts\ObjectDispawner.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerInventory.cs" />
      <Compile Include="Assets\Scripts\rope.cs" />
