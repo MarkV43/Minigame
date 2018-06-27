@@ -163,10 +163,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Aluno/Downloads/eduardo_veras/Minigame/Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="SourceUnityLib">
- <HintPath>C:/Users/Aluno/Downloads/eduardo_veras/Minigame/Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Editor">
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Runtime">
+ <HintPath>C:/Users/Aluno/Documents/Anonimo/Minigame/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Editor">
  <HintPath>C:/Users/Aluno/Downloads/eduardo_veras/Minigame/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>

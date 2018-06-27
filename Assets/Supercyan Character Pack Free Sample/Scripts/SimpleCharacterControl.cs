@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 public class SimpleCharacterControl : MonoBehaviour {
 
+    public PlayerInventory inventory;
+
     private enum ControlMode
     {
         Tank,
@@ -173,7 +175,7 @@ public class SimpleCharacterControl : MonoBehaviour {
 
     private void JumpingAndLanding()
     {
-        bool jumpCooldownOver = (Time.time - m_jumpTimeStamp) >= m_minJumpInterval;
+        bool jumpCooldownOver = inventory.holding == null && (Time.time - m_jumpTimeStamp) >= m_minJumpInterval;
 
         if (jumpCooldownOver && m_isGrounded && Input.GetKey(KeyCode.Space))
         {
