@@ -114,6 +114,7 @@
      <Compile Include="Assets\Scripts\HUDController.cs" />
      <Compile Include="Assets\Scripts\LightDetector.cs" />
      <Compile Include="Assets\Scripts\LightFlickerer.cs" />
+     <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\ObjectDispawner.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerInventory.cs" />

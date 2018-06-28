@@ -1,1 +1,7 @@
 Temp/
+Library/
+obj/
+ProjectSettings/
+UnityPackageManager/
+.vs/
+.vscode/
